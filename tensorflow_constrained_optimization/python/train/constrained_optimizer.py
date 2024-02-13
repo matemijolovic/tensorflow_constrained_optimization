@@ -496,7 +496,7 @@ class ConstrainedOptimizerV1(tf.compat.v1.train.Optimizer):
   # pylint: enable=protected-access
 
 
-class ConstrainedOptimizerV2(tf.keras.optimizers.Optimizer):
+class ConstrainedOptimizerV2(tf.keras.optimizers.legacy.Optimizer):
   """Base class representing a constrained V2 optimizer.
 
   A `ConstrainedOptimizerV2` wraps one or two `tf.keras.optimizers.Optimizer`s,

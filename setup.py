@@ -46,7 +46,7 @@ _install_requires = [
     # the user might want "tensorflow-gpu" instead of "tensorflow". However, in
     # TensorFlow 1.15 and later (before 2.0), or 2.1 and later, "tensorflow" and
     # "tensorflow-gpu" are no longer distinguished.
-    "tensorflow>=1.14",
+    "tensorflow>=2.11",
 ]
 
 _classifiers = [
